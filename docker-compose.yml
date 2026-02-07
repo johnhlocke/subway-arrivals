@@ -1,0 +1,6 @@
+services:
+  subway:
+    build: .
+    ports:
+      - "5002:5001"
+    restart: unless-stopped
