@@ -3,4 +3,6 @@ services:
     build: .
     ports:
       - "5002:5001"
+    environment:
+      - TZ=America/New_York
     restart: unless-stopped
